@@ -1,27 +1,8 @@
 {
-    "cmake.configureOnOpen": true,
-    "editor.fontSize": 19,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.codeLens.enabled": false,
-    "git.autofetch": true,
-    "git.enableCommitSigning": true,
-    "testMate.cpp.log.userId": "942334b9a2e5585b795fcd149915ebfb67d6d423",
-    "C_Cpp.updateChannel": "Insiders",
-    "window.zoomLevel": 0,
-    "editor.tabSize": 2,
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.renderWhitespace": "all",
-    "kite.showWelcomeNotificationOnStartup": false,
     "latex-workshop.latex.outDir": "./build",
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.debug.showUpdateMessage": false,
     "latex-utilities.liveReformat.enabled": true,
-    "cSpell.language": ",ru",
-    "files.autoSave": "off",
-    "editor.semanticTokenColorCustomizations": {},
-    "workbench.preferredDarkColorTheme": "Visual Studio Dark - C++",
-    "workbench.preferredLightColorTheme": "Visual Studio Light - C++",
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
     "[latex]": {
@@ -36,39 +17,8 @@
             "strings": true
         },
     },
-    "ltex.language": "ru-RU",
-    "editor.codeActionsOnSave": null,
-    // Fira Code Regular
-    //"editor.fontFamily": "Fira Code",
-    "editor.fontFamily": "Cascadia Code",
-    //"editor.fontLigatures": "'ss01', 'ss08'", 
-    "editor.fontLigatures": true,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "python.showStartPage": false,
     "latex-workshop.latex.pdfWatch.delay": 1000,
-    "typescript.tsdk": "",
-    "launch": {
-
-
-        "configurations": [],
-        "compounds": []
-    },
-    "cmake.debugConfig": {
-    //"args": ["../tst/in/trian.dat"]
-    },
-    "cmake.generator": "Unix Makefiles",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "emmet.showSuggestionsAsSnippets": true,
     "latex-workshop.intellisense.file.base": "both",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.sideBar.location": "right",
-    "terminal.explorerKind": "external",
-    "terminal.integrated.shell.linux": "fish",
-    "cSpell.words": [
-        "emplace"
-    ],
     "latex-workshop.latex.recipe.default": "first",
     "latex-workshop.latex.recipes": [ 
         { 
@@ -148,33 +98,4 @@
          "env": {} 
          } 
     ],
-    "terminal.integrated.fontSize": 16,
-    "warmUp.changeCount": "15",
-    "clang-tidy.checks": [
-        "*",
-        "-modernize-use-trailing-return-type",
-        "-fuchsia-default-arguments-calls",
-        "-readability-braces-around-statements",
-        "-google-readability-braces-around-statements",
-        "-hicpp-braces-around-statements",
-        "-llvm-header-guard",
-        "-modernize-pass-by-value",
-        "-fuchsia-default-arguments-declarations"
-    ],
-    "clang-tidy.lintOnSave": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.cursorBlinking": "expand",
-    "gitlens.hovers.enabled": false,
-    "[json]": {
-
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace",
-        "gitlens.codeLens.scopes": [
-            "document"
-        ]
-    },
-    "cmake.configureOnStart": false,
-    "sync.gist": "27b2e434684dcb8ef17226be4e955ffa"
 }
