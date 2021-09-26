@@ -3,7 +3,7 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.debug.showUpdateMessage": false,
     "latex-utilities.liveReformat.enabled": true,
-    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
     "[latex]": {
         "editor.suggest.snippetsPreventQuickSuggestions": false, 
@@ -98,4 +98,6 @@
          "env": {} 
          } 
     ],
+    "workbench.editor.wrapTabs": true,
+    "files.trimTrailingWhitespace": true
 }
