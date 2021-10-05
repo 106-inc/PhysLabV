@@ -18,7 +18,7 @@
 высоты, $E_i$ – энергия регистрируемого  - излучения. Значение $E_i$
 пропорционально среднему числу фотонов $\overline{n_i}$ на выходе ФЭУ, т.е.:
 
-\begin{equation}
+\begin{equation} \label{eqf:gamma_energy}
   E_i = \alpha \overline{n_i}
 \end{equation}
 
@@ -27,11 +27,11 @@
 дискретной случайной величиной, которая распределена по закону Пуассона, то
 $\overline{\Delta n_i} = \sqrt{\overline{n_i}}$ и поэтому
 
-\begin{equation}
+\begin{equation} \label{eqf:delta_gamma_energy}
   \Delta E_i = \alpha \overline{\Delta n_i} = \alpha \sqrt{\overline{n_i}}
 \end{equation}
 
-Из (4), (5) получаем, что
+Из \eqref{eqf:gamma_energy}, \eqref{eqf:delta_gamma_energy} получаем, что
 
 \begin{equation}
   R_i = \frac{\Delta E_i}{E_i} = \frac{\const}{\sqrt{E_i}}
