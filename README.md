@@ -18,6 +18,6 @@ General physics lab works
              └── <your pictures>
    ```
  * String length mustn't be more than 80 symbols. (Use
-   [`Rewrap`](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap)
+   [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap)
    extension)
 
