@@ -1,0 +1,81 @@
+\documentclass[a5paper, 10pt, twoside]{article} % тип документа
+
+\usepackage{hyperref}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{fancyhdr}
+\usepackage{import}
+
+% Математика
+\import{../headers/}{math.tex}
+
+%  Русский язык
+\import{../headers/}{russian.tex}
+
+% Дефайны
+\import{../headers/}{my_defs.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% МЕНЯЕМ АВТОРА ЗДЕСЬ !!!!!!!!!!!!!!!!
+\newcommand{\SMB}{SOMEBODY}
+% МЕНЯЕМ НОМЕР ЗДЕСЬ !!!!!!!!!!!!!!!!
+\newcommand{\LNUM}{2.1}
+%%%%%%%%%%%%%%%%%%%%%%
+%\fancyhf{}
+\renewcommand{\footrulewidth}{ .0em }
+\fancyfoot[C]{\texttt{\textemdash~\thepage~\textemdash}}
+\fancyhead[L]{Работа \LNUM \hfil}
+\fancyhead[R]{\hfil \SMB, группа Б01-909}
+
+\pagestyle{fancy}
+
+\graphicspath{{./src/pics/}} % где лежат картинки
+
+\counterwithin{figure}{section}
+
+% Title Page
+\title
+{\hfill \break  \hfill \break
+\hfill \break  \hfill \break
+Лабораторная работа \LNUM.
+
+Опыт Франка-Герца.
+}
+\author{\SMB, Б01-909}
+
+%\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\maketitle
+
+
+
+\thispagestyle{empty} % выключаем отображение номера для этой страницы
+
+\newpage
+
+\tableofcontents % Вывод содержания
+\thispagestyle{plain}
+\newpage
+
+
+\paragraph{Цель работы:}
+исследовать сериальные закономерности в оптическом спектре водорода; спектр
+поглощения паров йода в видимой области.
+
+\section{Теоретические сведения}
+\import{./src/}{1.tex}
+
+\newpage
+\section{Экспериментальная установка}
+\import{./src/}{2.tex}
+
+\newpage
+\section{Ход работы}
+\import{./src/}{3.tex}
+
+\newpage
+\section{Вывод}
+
+
+\end{document}
